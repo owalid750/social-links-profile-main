@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    /* height: 100vh; */
+
+}
+
+.card-container {
+    background-color:
+        hsl(0, 0%, 12%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 80px auto;
+}
+
+.img {
+    width: 150px;
+    /* Set the width */
+    height: 150px;
+    /* Set the height */
+    overflow: hidden;
+    /* Hide the overflow */
+    border-radius: 50%;
+    /* This makes the container circular */
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 100%;
+    /* Fit the image to the container */
+    height: auto;
+    /* Maintain the aspect ratio */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.bio {
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+}
